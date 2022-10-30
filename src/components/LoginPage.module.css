@@ -1,0 +1,21 @@
+.bgimage {
+    background-image: url(/public/bg.avif);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lgpgcontainer {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.lgpgh3 {
+    text-align: center;
+    color: brown;
+
+}

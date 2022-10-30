@@ -1,0 +1,26 @@
+body{
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: rgb(142, 169, 199);
+    }
+    .container {
+    padding: 100px;
+    margin: center;
+    background-color: rgb(151, 137, 137);
+    }
+    
+    input[type=text] {
+      width: 100px;
+      padding: 15px;
+    margin: 10px 0 22px 0;
+    display:CENTER ;
+     border-style: double;
+     background: #ffffff;
+    }
+    input[type=text]:focus {
+    background-color: rgb(80, 107, 134);
+    outline: none;
+    }
+    .center-block {
+margin: auto;
+display: block;
+}

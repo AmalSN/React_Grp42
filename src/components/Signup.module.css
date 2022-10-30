@@ -1,0 +1,29 @@
+.bgimage {
+    background-image: url(/public/bg.avif);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sgpgcontainer {
+
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#ctr {
+    position: absolute;
+    left: 51%;
+    bottom: 10%;
+}
+
+
+
+.sgpgh3 {
+    text-align: center;
+    color: brown;
+
+}

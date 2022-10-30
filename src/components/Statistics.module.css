@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.statbody {
+  background-image:url(../../public/new.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lobster', cursive;
+}
+
+.stath1 {
+  text-align: center;
+  font-family: 'Dela Gothic One', cursive;
+}
+
+.stataccordion {
+  width: 800px;
+  margin: 10px auto;
+  color: rgb(229, 129, 15);
+  background-image: url(../../public/new3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 45px 45px;
+}
+
+.accordion .statcontainer {
+    position: relative;
+    margin: 10px 10px;
+  }
+    
+.accordion .statlabel {
+    position: relative;
+    padding: 8px 8px;
+    font-size: 30px;
+    color: rgb(229, 25, 151);
+    cursor: pointer;
+  }
+
+.accordion .statlabel::before {
+    content: '+';
+    color: rgb(228, 52, 178);
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+  }
+  
+.accordion .statcontent {
+    position: relative;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 780px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+.accordion .stathr {
+    width: 100;
+    margin-left: 0;
+    border: 1px solid rgb(32, 219, 104);
+  }
+
+.accordion .statcontainer.active .statcontent {
+    height: 150px;
+  }
+  
+.accordion .statcontainer.active .statlabel::before {
+    content: '-';
+    font-size: 30px;
+  }
+
+.statlistgroupitem{
+      color: rgb(205, 214, 69);
+  }

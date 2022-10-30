@@ -1,0 +1,18 @@
+.brownColor{
+    background-color: burlywood;
+}
+
+.fontSpecial{
+    font-size: 5rem; 
+    color: brown;
+    font-family: 'Pacifico', cursive;
+}
+
+.carouselmain {
+    width: 40vw;  
+    height: 75vh;  
+}
+
+.imgChange{
+    height: 70vh;
+}
